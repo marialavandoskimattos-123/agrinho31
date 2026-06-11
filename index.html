@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte | Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="main-header" role="banner">
+        <nav class="nav-container" aria-label="Navegação Principal">
+            <div class="logo">Agro<span>Sustentável</span></div>
+            
+            <div class="theme-switch-container">
+                <label class="theme-switch" for="checkbox">
+                    <span class="sr-only">Ativar Modo Escuro</span>
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round" aria-hidden="true">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </label>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Pilares</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#videos">Galeria</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><button class="btn-contato" aria-haspopup="dialog" aria-controls="modalInscricao">Fale Conosco</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        
+        <section id="home" class="hero-section" aria-label="Apresentação">
+            <video autoplay muted loop playsinline class="hero-video-bg" aria-hidden="true">
+                <source src="https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Plowing_on_an_organic_farm_in_the_United_States.webm/Plowing_on_an_organic_farm_in_the_United_States.webm.480p.vp9.webm" type="video/webm">
+                <source src="https://scisne.com/biotech-farm-preview.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            
+            <div class="hero-glass-card">
+                <h1>Agro Forte, Futuro Sustentável</h1>
+                <p>O impacto da alta produtividade aliado à inteligência ecológica e preservação do amanhã.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button" aria-haspopup="dialog" aria-controls="modalInscricao">Conheça nossa visão</button>
+                    <a href="#videos" class="secondary-link">Assistir Demonstrações</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="info-section" aria-labelledby="titulo-pilares">
+            <div class="container">
+                <h2 id="titulo-pilares">Nossos Pilares Sustentáveis</h2>
+                <div class="cards-grid">
+                    <article class="card reveal">
+                        <div class="card-icon" aria-hidden="true"><i class="fas fa-seedling"></i></div>
+                        <h3>Plantio Direto</h3>
+                        <p>Proteção orgânica do solo, retenção de umidade e conservação de nutrientes essenciais.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="card-icon" aria-hidden="true"><i class="fas fa-water"></i></div>
+                        <h3>Gestão Hídrica</h3>
+                        <p>Sistemas inteligentes de irrigação por gotejamento que evitam o desperdício de água.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="card-icon" aria-hidden="true"><i class="fas fa-solar-panel"></i></div>
+                        <h3>Energia Limpa</h3>
+                        <p>Matriz energética baseada em fontes solar e biomassa, gerando autonomia verde.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologia" class="tech-section" aria-labelledby="titulo-tecnologia">
+            <div class="tech-glass-card reveal">
+                <h2 id="titulo-tecnologia">Tecnologia a Favor do Verde</h2>
+                <p>Utilizamos inteligência artificial, drones de mapeamento e sensores de solo para aplicar insumos com precisão cirúrgica, reduzindo drasticamente o impacto ambiental.</p>
+            </div>
+        </section>
+
+        <section id="videos" class="videos-section" aria-labelledby="titulo-videos">
+            <div class="container">
+                <h2 id="titulo-videos">O Campo em Movimento</h2>
+                <p class="section-subtitle">Veja na prática como a união da tecnologia e o respeito à terra transformam o futuro.</p>
+                
+                <div class="video-grid">
+                    <div class="video-card reveal">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/fD_0aI5j_K8?si=tech-farm-1" title="Vídeo demonstrativo sobre Agricultura de Precisão" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Agricultura de Precisão</h3>
+                            <p>Entenda o uso de inteligência geográfica e satélites no monitoramento de safras em tempo real.</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card reveal">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/8-W7zR6O3gY?si=tech-farm-2" title="Vídeo explicativo sobre Práticas Sustentáveis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Práticas Sustentáveis</h3>
+                            <p>Como grandes produtores estão reduzindo a emissão de carbono usando técnicas biológicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="resources-section" aria-labelledby="titulo-recursos">
+            <div class="container">
+                <h2 id="titulo-recursos">Conhecimento e Diretrizes Globais</h2>
+                <p class="section-subtitle">Acesse portais de referência mundial para entender as normas, pesquisas e dados do agro sustentável.</p>
+                
+                <div class="links-grid">
+                    <a href="https://www.embrapa.br" target="_blank" rel="noopener noreferrer" class="resource-card reveal" aria-label="Acessar portal da Embrapa (Abre em nova aba)">
+                        <div class="resource-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Embrapa</h3>
+                        <p>Pesquisas científicas, inovações tecnológicas e práticas sustentáveis aplicadas diretamente ao campo brasileiro.</p>
+                        <span class="visit-link">Visitar Portal <i class="fas fa-chevron-right"></i></span>
+                    </a>
+
+                    <a href="https://www.fao.org/home/en" target="_blank" rel="noopener noreferrer" class="resource-card reveal" aria-label="Acessar portal da FAO ONU (Abre em nova aba)">
+                        <div class="resource-icon"><i class="fas fa-globe-americas"></i></div>
+                        <h3>FAO - ONU</h3>
+                        <p>Diretrizes globais da Organização das Nações Unidas para a Alimentação e Agricultura sobre o futuro da produção sustentável.</p>
+                        <span class="visit-link">Visitar Portal <i class="fas fa-chevron-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modalInscricao" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-describedby="modal-desc">
+        <div class="modal-card" role="document">
+            <button class="close-button" aria-label="Fechar janela de diálogo">&times;</button>
+            <h2 id="modal-title">Fale com um Especialista</h2>
+            <p id="modal-desc">Descubra como aplicar soluções sustentáveis na sua produção enviando seus dados.</p>
+            <form id="formSustentavel">
+                <div class="form-group">
+                    <label for="nome" class="form-label">Nome Completo</label>
+                    <input type="text" id="nome" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">E-mail Corporativo</label>
+                    <input type="email" id="email" required autocomplete="email">
+                </div>
+                <button type="submit" class="cta-button full-width">Enviar Dados</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="sr-announcer" class="sr-only" aria-live="assertive"></div>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <p>&copy; 2026 Agro Sustentável. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
